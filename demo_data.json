@@ -1,0 +1,60 @@
+{
+  "description": "Demo data for traffic controller - realistic traffic scenario",
+  "timestamp": "2026-02-11T14:30:00",
+  "roads": {
+    "north": {
+      "vehicles": [
+        {"type": "car", "confidence": 0.89},
+        {"type": "car", "confidence": 0.91},
+        {"type": "car", "confidence": 0.87},
+        {"type": "truck", "confidence": 0.88},
+        {"type": "car", "confidence": 0.90},
+        {"type": "car", "confidence": 0.86}
+      ]
+    },
+    "south": {
+      "vehicles": [
+        {"type": "car", "confidence": 0.92},
+        {"type": "car", "confidence": 0.88},
+        {"type": "bus", "confidence": 0.91},
+        {"type": "car", "confidence": 0.85},
+        {"type": "car", "confidence": 0.87},
+        {"type": "motorcycle", "confidence": 0.83},
+        {"type": "truck", "confidence": 0.89},
+        {"type": "car", "confidence": 0.90},
+        {"type": "car", "confidence": 0.86}
+      ]
+    },
+    "east": {
+      "vehicles": [
+        {"type": "car", "confidence": 0.88},
+        {"type": "car", "confidence": 0.91},
+        {"type": "motorcycle", "confidence": 0.82}
+      ]
+    },
+    "west": {
+      "vehicles": [
+        {"type": "car", "confidence": 0.90},
+        {"type": "car", "confidence": 0.87},
+        {"type": "truck", "confidence": 0.89},
+        {"type": "car", "confidence": 0.85},
+        {"type": "bus", "confidence": 0.92},
+        {"type": "car", "confidence": 0.88},
+        {"type": "car", "confidence": 0.86},
+        {"type": "car", "confidence": 0.91},
+        {"type": "motorcycle", "confidence": 0.81},
+        {"type": "car", "confidence": 0.89},
+        {"type": "car", "confidence": 0.87}
+      ]
+    }
+  },
+  "notes": [
+    "Demo data created for your synthetic images",
+    "YOLO cannot detect vehicles in synthetic images (simple shapes)",
+    "This data provides realistic traffic patterns for demonstration",
+    "Vehicle counts: North=6, South=9, East=3, West=11",
+    "Total: 29 vehicles across intersection",
+    "Expected scores: North~7.0, South~11.5, East~2.5, West~13.2",
+    "Edit this file to test different traffic scenarios"
+  ]
+}
